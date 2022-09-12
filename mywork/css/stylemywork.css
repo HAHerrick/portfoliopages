@@ -1,0 +1,165 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffe5a2;
+    height: 100%;
+  }
+
+header{
+  display:flex;
+  height: 120px;
+  background-color: #77efef;
+  position:relative;
+  top: -10px;
+  right: -10px;
+  left: -10px;
+  width: 102%; 
+}
+  .logo{
+float:left;
+ padding: 20px;
+  padding-right:20px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.hortizontal{
+  float: center;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #77efef;
+  
+}
+ .hor{display: block;
+float: left;
+color: #0c4665;
+text-align:center;
+padding: 30px 60px;
+text-decoration: none;
+font-size: 18px;
+}
+.hor:hover{background-color: #17ADDD;}
+.text{color: #0c4665;
+}
+  .vertical{
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left:auto;
+    font-size: 15px;
+    color: #0c4665;
+    padding-right: 7%;
+    padding-top: 1.5%;
+  }
+  .vert{
+    display: block;
+    text-align: left;
+    color:#0c4665;
+    padding: 10px;
+  }
+  h1{
+    color: #0c4665;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .project{
+    padding: 80px;
+    background-image: url("../images/Rectangle\ 40.png"); 
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+  }
+  .img{
+    margin-left: auto;
+    margin-right: 5%;
+    float: right;
+    margin-top: -30px;
+  }
+  .projecttext{
+    position:relative;
+    margin-left: 0%;
+    margin-top: 60px;
+    color:#0c4665;
+    padding: 2.5%;
+    width: 65%;
+  }
+    button{
+        background-color: #0c4665;
+        border: none;
+        color:#ffe5a2;
+        padding: 15px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        float: center;
+        margin-left: 200px;
+      }
+      button:hover{background-color: #17ADDD;
+    }
+  
+  footer{display: flex;
+    height: 120px;
+    background-color: #77efef;
+    margin-top: 30px;
+    position: relative;
+    width: 102%;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+  }
+  .copyright{
+    font-size: 12px;
+  }
+  @media only screen and (max-width: 600px){
+    .logo{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .hor{
+    padding: 15px 10px;
+    font-size: 14px;
+}
+    .vertical{
+      padding-right: 1%;
+      font-size: 12px;
+    }
+    .project{
+        padding: 90px;
+        background-image: url("../images/Rectangle\ 16.png"); 
+        height:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image{
+        float:left;
+        margin-top: 0px;
+
+    }
+    .projecttext{
+        width: 100%;
+        
+    }
+    button{
+       
+        padding: 15px 18px;
+        font-size: 14px;
+        float: center;
+        margin-left: 150px;
+      }
+   }
+   @media only screen and (max-width: 1250px){
+   .logo{
+    padding-right: 5px;
+    padding-left: .5cm;
+   }
+    .hor{padding: 30px 20px
+    font-size: 16px;
+  }
+    .vertical{
+      padding-right: 5px;
+      font-size: 14px;
+    }
+   }
+    
