@@ -61,6 +61,18 @@ font-size: 18px;
     color:#0c4665;
     padding: 10px;
   }
+  a:link {
+    color:#0c4665;
+  }
+  a:visited {
+    color: #0c4665
+  }
+  a:hover {
+    color: #17ADDD;
+  }
+  a:active {
+    color: #ffe5a2;
+  }
   .heroimg{
     padding: 5%;
     background-image: url("../images/Rectangle\ 39.png");
@@ -120,13 +132,59 @@ footer{display: flex;
 
 }
 @media only screen and (max-width: 600px){
-  .hor{padding: 0;
-  font-size: 14px;}
-  .vertical{
-    padding-right: 1%;
-    font-size: 12px;
+    .logo{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .hor{
+    padding: 15px 10px;
+    font-size: 14px;
+}
+    .vertical{
+      padding-right: 1%;
+      font-size: 12px;
+    } 
+    .heroimg{
+      padding: 2%;
+      background-image: url("../images/Rectangle\ 16.png");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+  .headshot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 62%;
+    margin-top: 0;
+    margin-right: 10px;
   }
+  .herotext{
+    position:relative;
+    margin-bottom: 80px;
+    color:#0c4665;
+    margin-top:3cm;
+    width: 100%
+  }
+    .project{
+        padding: 130px;
+        background-image: url("../images/Rectangle\ 16.png"); 
+        height:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .image{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+       margin-top: 0px;
 
+    }
+    .projecttext{
+        width: 100%;
+        
+    }
  }
  @media only screen and (max-width: 1250px){
  .logo{
