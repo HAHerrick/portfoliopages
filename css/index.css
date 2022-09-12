@@ -182,7 +182,8 @@ footer{display: flex;
 
     }
     .projecttext{
-        width: 100%;
+      position:relative;
+      width: 100%;
         
     }
  }
