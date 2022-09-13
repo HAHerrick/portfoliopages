@@ -72,8 +72,10 @@ font-size: 18px;
     color:#0c4665;
     text-align: center;
   }
+  <!--My skills section coded using css flex-->
 .flexContainer{
     display:flex;
+    flex-direction: row;
 }
 .skill{
     background-image:url("../images/Rectangle\ 24.png");
@@ -111,20 +113,23 @@ p{
 
   @media only screen and (max-width: 600px){
     .logo{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .hor{
-    padding: 15px 10px;
-    font-size: 14px;
+    padding: 15px 20px;
+    font-size: 16px;
 }
     .vertical{
-      padding-right: 1%;
-      font-size: 12px;
+      padding-right: 2%;
+      font-size: 14px;
     } 
     .flexContainer{
         display: column;
         width: 100%;
+    }
+    .skill{
+      width:100%;
     }
   
  }
@@ -145,5 +150,7 @@ p{
     display: flex;
     width: 50%;
   }
-  
+  .skill{
+    width:50%;
+  }
   }
