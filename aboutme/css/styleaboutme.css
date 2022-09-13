@@ -74,6 +74,9 @@ font-size: 18px;
     color:#0c4665;
     text-align: center;
   }
+  .fullwidth{
+    margin-left: -20px;
+  }
   .content{
     background-image: url("../images/Rectangle\ 39.png");
     height:100%;

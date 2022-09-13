@@ -18,25 +18,27 @@ header{
   .logo{
 float:left;
  padding: 1cm;
-  padding-right: 1cm;
+  padding-right: 0;
   padding-left: 1cm;
   padding-top: .25cm;
 }
 .hortizontal{
-  float: center;
+  float: left;
   list-style-type: none;
   margin: 0; 
   overflow: hidden;
   background-color: #77efef;
   
+  
 }
- .hor{display: block;
+ .hor{display: inline;
 float: left;
 color: #0c4665;
 text-align:center;
 padding: 30px 60px;
 text-decoration: none;
 font-size: 18px;
+
 }
 .hor:hover{background-color: #17ADDD;}
 .text{color: #0c4665;

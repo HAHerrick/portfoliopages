@@ -111,40 +111,4 @@ p{
     font-size: 12px;
   }
 
-  @media only screen and (max-width: 600px){
-    .logo{
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .hor{
-    padding: 15px 20px;
-    font-size: 16px;
-}
-    .vertical{
-      padding-right: 2%;
-      font-size: 14px;
-    } 
-    .flexContainer{
-        display: column;
-        width: 100%;
-    }
-    .skill{
-      width:100%;
-    }
   
- }
- @media only screen and (max-width: 1250px){
- .logo{
-  padding-right: 0;
-  padding-left: .5cm;
-
- }
-  .hor{padding: 5px 10px;
-  font-size: 16px;
-}
-  .vertical{
-    padding-right: 0;
-    font-size: 14px;
-  }
-  
-  }
