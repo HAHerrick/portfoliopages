@@ -76,14 +76,26 @@ font-size: 18px;
     display:flex;
 }
 .skill{
-    background-image:url("myskills\images\Rectangle 24.png");
+    background-image:url("../images/Rectangle\ 24.png");
     height:100%;
   background-position: center;
   background-repeat: no-repeat;
     width: 33%;
-    padding: 20px;
+    padding: 110px;
     margin-right: 20px;
     margin-left: 20px;
+}
+h3{
+    text-align: center;
+    color:#0c4665
+}
+.skillimage{
+
+}
+
+p{
+    color:#0c4665;
+    padding-bottom: 50px;
 }
   footer{
     display: flex;
@@ -98,4 +110,44 @@ font-size: 18px;
   }
   .copyright{
     font-size: 12px;
+  }
+
+  @media only screen and (max-width: 600px){
+    .logo{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .hor{
+    padding: 15px 10px;
+    font-size: 14px;
+}
+    .vertical{
+      padding-right: 1%;
+      font-size: 12px;
+    } 
+    .flexContainer{
+        display: column;
+        width: 100%;
+
+    }
+  
+ }
+ @media only screen and (max-width: 1250px){
+ .logo{
+  padding-right: 0;
+  padding-left: .5cm;
+
+ }
+  .hor{padding: 5px 10px;
+  font-size: 16px;
+}
+  .vertical{
+    padding-right: 0;
+    font-size: 14px;
+  }
+  .flexContainer{
+    display: flex;
+    width: 50%;
+  }
+  
   }
