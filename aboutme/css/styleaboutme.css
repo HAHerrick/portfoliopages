@@ -178,20 +178,26 @@ font-size: 18px;
         padding-right: 15px;
     }
     .hor{
-    padding: 15px 20px;
+    padding: 30px 30px;
     font-size: 16px;
 }
     .vertical{
       padding-right: 2%;
       font-size: 14px;
     } 
-    .flexContainer{
-        display: column;
-        width: 100%;
-    }
-    .skill{
-      width:100%;
-    }
+    .aboutGrid{
+      margin:20px;
+      display: grid;
+      grid-template-rows: 300px 300px 300px 300px 300px 300px;
+       grid-template-columns: 1fr ;
+      grid-template-areas: 
+       "usda"
+       "sniffrstory" "
+       "sniffrRoo"
+  "userflow" 
+  "myplate" 
+  "ctrfoster"; 
+  }
   
  }
  @media only screen and (max-width: 1250px){
