@@ -75,7 +75,7 @@ font-size: 18px;
   <!--My skills section coded using css flex-->
 .flexContainer{
     display:flex;
-    flex-direction: row;
+    
 }
 .skill{
     background-image:url("../images/Rectangle\ 24.png");
