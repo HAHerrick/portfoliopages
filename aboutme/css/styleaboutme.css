@@ -73,7 +73,7 @@ font-size: 18px;
     text-align: center;
   }
   .content{
-    background-image: url("aboutme\images\Rectangle 39.png");
+    background-image: url("../images/Rectangle\ 39.png");
     height:100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -108,27 +108,27 @@ font-size: 18px;
 }
 #usda{
     grid-area: usda;
-    background-image: url(../images/my\ plate\ phone\ home\ dark\ text\ 1.png);
+    background-image: url("../images/my\ plate\ phone\ home\ dark\ text\ 1.png");
   }
   #sniffrstory{
     grid-area: sniffrstory;
-    background-image: url(../images/sniffr.png);
+    background-image: url("../images/sniffr.png");
   }
   #sniffrRoo{
     grid-area: sniffrRoo;
-    background-image: url(../images/IMG_8559\ 1.png);
+    background-image: url("../images/IMG_8559\ 1.png");
   }
   #userflow{
     grid-area: userflow;
-    background-image: url(../images/user\ flow\ enlarged\ 1.png);
+    background-image: url("../images/user\ flow\ enlarged\ 1.png");
   }
   #myplate{
     grid-area: myplate;
-    background-image: url(../images/my\ plate\ about\ 1.png);
+    background-image: url("../images/my\ plate\ about\ 1.png");
   }
   #ctrfoster{
     grid-area: ctrfoster;
-    background-image: url(../images/foster\ resources\ 1.png);
+    background-image: url("../images/foster\ resources\ 1.png");
   }
   .categoryGrid{
     background-position: center;
