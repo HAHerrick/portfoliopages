@@ -72,20 +72,32 @@ font-size: 18px;
     color:#0c4665;
     text-align: center;
   }
-  <!--My skills section coded using css flex-->
+  /*My skills section coded using css flex-->*/
+
 .flexContainer{
-    display:flex;
-    
+display: flex;
+flex-direction: row;
 }
+
+    
+
 .skill{
     background-image:url("../images/Rectangle\ 24.png");
     height:100%;
   background-position: center;
   background-repeat: no-repeat;
     width: 33%;
-    padding: 110px;
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
     margin-right: 20px;
     margin-left: 20px;
+}
+.skillimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 h3{
     text-align: center;
@@ -95,6 +107,8 @@ h3{
 p{
     color:#0c4665;
     padding-bottom: 50px;
+    padding-left: 80px;
+    width: 68%;
 }
   footer{
     display: flex;
@@ -111,4 +125,46 @@ p{
     font-size: 12px;
   }
 
+   @media only screen and (max-width: 600px){
+    .logo{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .hor{
+    padding: 15px 20px;
+    font-size: 16px;
+}
+    .vertical{
+      padding-right: 2%;
+      font-size: 14px;
+    } 
+    .flexContainer{
+        display: column;
+        width: 100%;
+    }
+    .skill{
+      width:100%;
+    }
   
+ }
+ @media only screen and (max-width: 1250px){
+ .logo{
+  padding-right: 0;
+  padding-left: .5cm;
+
+ }
+  .hor{padding: 5px 10px;
+  font-size: 16px;
+}
+  .vertical{
+    padding-right: 0;
+    font-size: 14px;
+  }
+  .flexContainer{
+    display: flex;
+    width: 50%;
+  }
+  .skill{
+    width:50%;
+  }
+  }
