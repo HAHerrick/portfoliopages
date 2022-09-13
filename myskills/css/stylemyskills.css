@@ -3,7 +3,6 @@ body {
     background-color: #ffe5a2;
     height: 100%;
   }
-
 header{
   display:flex;
   height: 120px;
@@ -14,7 +13,6 @@ header{
   right: -10px;
   left: -10px;
   width: 102%;
-  
 }
   .logo{
 float:left;
@@ -29,7 +27,6 @@ float:left;
   margin: 0; 
   overflow: hidden;
   background-color: #77efef;
-  
 }
  .hor{display: block;
 float: left;
