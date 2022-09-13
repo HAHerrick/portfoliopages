@@ -1,0 +1,199 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffe5a2;
+    height: 100%;
+  }
+header{
+  display:flex;
+  height: 120px;
+  margin: 0;
+  background-color: #77efef;
+  position:relative;
+  top: -10px;
+  right: -10px;
+  left: -10px;
+  width: 102%;
+}
+  .logo{
+float:left;
+ padding: 1cm;
+  padding-right: 1cm;
+  padding-left: 1cm;
+  padding-top: .25cm;
+}
+.hortizontal{
+  float: center;
+  list-style-type: none;
+  margin: 0; 
+  overflow: hidden;
+  background-color: #77efef;
+}
+ .hor{display: block;
+float: left;
+color: #0c4665;
+text-align:center;
+padding: 30px 60px;
+text-decoration: none;
+font-size: 18px;
+}
+.hor:hover{background-color: #17ADDD;}
+.text{color: #0c4665;
+}
+  .vertical{
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left:auto;
+    font-size: 15px;
+    color: #0c4665;
+    padding-right: 7%;
+    padding-top: 1.5%;
+  }
+  .vert{
+    display: block;
+    text-align: left;
+    color:#0c4665;
+    padding: 10px;
+  }
+  a:link {
+    color:#0c4665;
+  }
+  a:visited {
+    color: #0c4665
+  }
+  a:hover {
+    color: #77efef;
+  }
+  a:active {
+    color: #ffe5a2;
+  }
+  h1{
+    color:#0c4665;
+    text-align: center;
+  }
+  .content{
+    background-image: url("aboutme\images\Rectangle 39.png");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  p{
+    color:#0c4665;
+    font-size: 14px;
+  }
+    button{
+    background-color: #0c4665;
+    border: none;
+    color:#ffe5a2;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 200px;
+  }
+  button:hover{background-color: #17ADDD;
+}
+
+  <!--About Me section styled using css grid-->
+.aboutGrid{
+    margin:0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas:  "usda sniffrstory sniffrRoo"
+"userflow userflow sniffrRoo"
+"myplate ctrfoster ctrfoster";
+}
+#usda{
+    grid-area: usda;
+    background-image: url(../images/my\ plate\ phone\ home\ dark\ text\ 1.png);
+  }
+  #sniffrstory{
+    grid-area: sniffrstory;
+    background-image: url(../images/sniffr.png);
+  }
+  #sniffrRoo{
+    grid-area: sniffrRoo;
+    background-image: url(../images/IMG_8559\ 1.png);
+  }
+  #userflow{
+    grid-area: userflow;
+    background-image: url(../images/user\ flow\ enlarged\ 1.png);
+  }
+  #myplate{
+    grid-area: myplate;
+    background-image: url(../images/my\ plate\ about\ 1.png);
+  }
+  #ctrfoster{
+    grid-area: ctrfoster;
+    background-image: url(../images/foster\ resources\ 1.png);
+  }
+  .categoryGrid{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+  }
+  footer{
+    display: flex;
+    height: 120px;
+    background-color: #77efef;
+    margin-top: 30px;
+    position: relative;
+    width: 102%;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+  }
+  .copyright{
+    font-size: 12px;
+  }
+
+  @media only screen and (max-width: 600px){
+    .logo{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .hor{
+    padding: 15px 20px;
+    font-size: 16px;
+}
+    .vertical{
+      padding-right: 2%;
+      font-size: 14px;
+    } 
+    .flexContainer{
+        display: column;
+        width: 100%;
+    }
+    .skill{
+      width:100%;
+    }
+  
+ }
+ @media only screen and (max-width: 1250px){
+ .logo{
+  padding-right: 0;
+  padding-left: .5cm;
+
+ }
+  .hor{padding: 5px 10px;
+  font-size: 16px;
+}
+  .vertical{
+    padding-right: 0;
+    font-size: 14px;
+  }
+  .flexContainer{
+    display: flex;
+    width: 50%;
+  }
+  .skill{
+    width:50%;
+  }
+  }
