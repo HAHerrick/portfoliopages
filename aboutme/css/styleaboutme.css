@@ -77,6 +77,8 @@ font-size: 18px;
     height:100%;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   p{
     color:#0c4665;

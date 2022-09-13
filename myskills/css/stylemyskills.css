@@ -146,11 +146,5 @@ p{
     padding-right: 0;
     font-size: 14px;
   }
-  .flexContainer{
-    display: flex;
-    width: 50%;
-  }
-  .skill{
-    width:50%;
-  }
+  
   }
