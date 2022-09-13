@@ -14,8 +14,6 @@ header{
   right: -10px;
   left: -10px;
   width: 102%;
-
-  
   
 }
   .logo{
@@ -68,8 +66,39 @@ font-size: 18px;
     color: #0c4665
   }
   a:hover {
-    color: #17ADDD;
+    color: #77efef;
   }
   a:active {
     color: #ffe5a2;
+  }
+  h1{
+    color:#0c4665;
+    text-align: center;
+  }
+.flexContainer{
+    display:flex;
+}
+.skill{
+    background-image:url("myskills\images\Rectangle 24.png");
+    height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+    width: 33%;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+  footer{
+    display: flex;
+    height: 120px;
+    background-color: #77efef;
+    margin-top: 30px;
+    position: relative;
+    width: 102%;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+  }
+  .copyright{
+    font-size: 12px;
   }

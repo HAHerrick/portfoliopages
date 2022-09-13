@@ -68,7 +68,7 @@ font-size: 18px;
     color: #0c4665
   }
   a:hover {
-    color: #17ADDD;
+    color:#77efef;
   }
   a:active {
     color: #ffe5a2;
@@ -193,17 +193,16 @@ footer{display: flex;
   padding-left: .5cm;
 
  }
-  .hor{padding: 5px 10px
+  .hor{padding: 5px 10px;
   font-size: 16px;
 }
   .vertical{
     padding-right: 0;
     font-size: 14px;
   }
-  .headshot{ 
-    top-margin: -65px;
+  
   }
 
- }
+ 
   
  
