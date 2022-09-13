@@ -13,10 +13,7 @@ header{
   top: -10px;
   right: -10px;
   left: -10px;
-  width: 102%;
-
-  
-  
+  width: 102%; 
 }
   .logo{
 float:left;
@@ -127,9 +124,6 @@ footer{display: flex;
 }
 .copyright{
   font-size: 12px;
- 
-  
-
 }
 @media only screen and (max-width: 600px){
     .logo{
@@ -137,7 +131,7 @@ footer{display: flex;
         padding-right: 15px;
     }
     .hor{
-    padding: 15px 20px;
+    padding: 20px 20px;
     font-size: 16px;
 }
     .vertical{
@@ -157,7 +151,7 @@ footer{display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 62%;
-    margin-top: 0;
+    margin-top: 65px;
     margin-right: 10px;
   }
   .herotext{
@@ -188,21 +182,7 @@ footer{display: flex;
         
     }
  }
- @media only screen and (max-width: 1250px){
- .logo{
-  padding-right: 0;
-  padding-left: .5cm;
 
- }
-  .hor{padding: 5px 10px;
-  font-size: 16px;
-}
-  .vertical{
-    padding-right: 0;
-    font-size: 14px;
-  }
-  
-  }
 
  
   
