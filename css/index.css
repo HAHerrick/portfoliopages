@@ -127,63 +127,7 @@ footer{display: flex;
 .copyright{
   font-size: 12px;
 }
-@media only screen and (max-width: 600px){
-    .logo{
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .hor{
-    padding: 30px 30px;
-    font-size: 16px;
-}
-    .vertical{
-      padding-right: 2%;
-      font-size: 14px;
-    } 
-    .heroimg{
-      padding-top:65px;
-      padding: 2%;
-      background-image: url("../images/Rectangle\ 16.png");
-    height:100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    }
-  .headshot{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 62%;
-    margin-top: 110px;
-    margin-right: 10px;
-  }
-  .herotext{
-    position:relative;
-    margin-bottom: 80px;
-    color:#0c4665;
-    margin-top:3cm;
-    width: 100%
-  }
-    .project{
-        padding: 130px;
-        background-image: url("../images/Rectangle\ 16.png"); 
-        height:100%;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    .image{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-       margin-top: 0px;
 
-    }
-    .projecttext{
-      position:relative;
-      width: 100%;
-        
-    }
- }
  /*my skills*/
 h1{
   color:#0c4665;
@@ -228,50 +172,7 @@ h3{
   width: 68%;
 }
 
- @media only screen and (max-width: 600px){
-  .logo{
-      padding-left: 15px;
-      padding-right: 15px;
-  }
-  .hor{
-  padding: 30px 30px;
-  font-size: 16px;
-}
-  .vertical{
-    padding-right: 2%;
-    font-size: 14px;
-  } 
-  .flexContainer{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-  }
-  .skill{
-    width:100%;
-  }
-
-}
-@media only screen and (max-width: 1250px){
-.logo{
-padding-right: 0;
-padding-left: .5cm;
-
-}
-.hor{padding: 5px 10px;
-font-size: 16px;
-}
-.vertical{
-  padding-right: 0;
-  font-size: 14px;
-}
-.flexContainer{
-  display: flex;
-  width: 100%;
-}
-.skill{
-  width:50%;
-}
-}
+ 
 
 /* about me*/
 h1{
@@ -282,7 +183,7 @@ h1{
   margin-left: 0;
 }
 .content{
-  background-image: url("../images/bluewave.png");
+  background-image: url("../aboutme/images/bluewave.png");
   height:20%;
   background-position: center;
   background-repeat: no-repeat;
@@ -324,32 +225,32 @@ button:hover{background-color: #17ADDD;
 }
 #usda{
   grid-area: usda;
-  background-image: url("../images/myplategreen.png");
+  background-image: url("../aboutme/images/myplategreen.png");
  
   
 }
 #sniffrstory{
   grid-area: sniffrstory;
-  background-image: url("../images/sniffrstory.png");
+  background-image: url("../aboutme/images/sniffrstory.png");
   
 }
 #sniffrRoo{
   grid-area: sniffrRoo;
-  background-image: url("../images/sniffrRoo.png");
+  background-image: url("../aboutme/images/sniffrRoo.png");
   
 }
 #userflow{
   grid-area: userflow;
- background-image: url("../images/userflow.png");
+ background-image: url("../aboutme/images/userflow.png");
 }
 #myplate{
   grid-area: myplate;
-  background-image: url("../images/myplateorange.png");
+  background-image: url("../aboutme/images/myplateorange.png");
  
 }
 #ctrfoster{
   grid-area: ctrfoster;
-  background-image: url("../images/ctrfoster.png");
+  background-image: url("../aboutme/images/ctrfoster.png");
   
 }
 .categoryGrid{
@@ -362,57 +263,6 @@ button:hover{background-color: #17ADDD;
   align-content: end;
 }
 
-
-
-@media only screen and (max-width: 600px){
-  .logo{
-      padding-left: 15px;
-      padding-right: 15px;
-  }
-  .hor{
-  padding: 30px 30px;
-  font-size: 16px;
-}
-  .vertical{
-    padding-right: 2%;
-    font-size: 14px;
-  } 
-  .aboutGrid{
-    margin:20px;
-    display: grid;
-    grid-template-rows: 300px 300px 300px 300px 300px 300px;
-     grid-template-columns: 1fr ;
-    grid-template-areas: 
-     "usda"
-     "sniffrstory" "
-     "sniffrRoo"
-"userflow" 
-"myplate" 
-"ctrfoster"; 
-}
-
-}
-@media only screen and (max-width: 1250px){
-.logo{
-padding-right: 0;
-padding-left: .5cm;
-
-}
-.hor{padding: 5px 10px;
-font-size: 16px;
-}
-.vertical{
-  padding-right: 0;
-  font-size: 14px;
-}
-.flexContainer{
-  display: flex;
-  width: 50%;
-}
-.skill{
-  width:50%;
-}
-}
 /*my work*/
 h1{
   color: #0c4665;
@@ -470,6 +320,49 @@ h1{
     padding-right: 2%;
     font-size: 14px;
   }
+  .heroimg{
+    padding-top:65px;
+    padding: 2%;
+    background-image: url("../images/Rectangle\ 16.png");
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+.headshot{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 62%;
+  margin-top: 110px;
+  margin-right: 10px;
+}
+.herotext{
+  position:relative;
+  margin-bottom: 80px;
+  color:#0c4665;
+  margin-top:3cm;
+  width: 100%
+}
+  .project{
+      padding: 130px;
+      background-image: url("../images/Rectangle\ 16.png"); 
+      height:100%;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  .image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+     margin-top: 0px;
+
+  }
+  .projecttext{
+    position:relative;
+    width: 100%;
+      
+  }
   .project{
       padding: 90px;
       background-image: url("../images/Rectangle\ 16.png"); 
@@ -493,6 +386,29 @@ h1{
       float: center;
       margin-left: 150px;
     }
+    .aboutGrid{
+      margin:20px;
+      display: grid;
+      grid-template-rows: 300px 300px 300px 300px 300px 300px;
+       grid-template-columns: 1fr ;
+      grid-template-areas: 
+       "usda"
+       "sniffrstory" "
+       "sniffrRoo"
+  "userflow" 
+  "myplate" 
+  "ctrfoster"; 
+  }  
+  .flexContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.skill{
+  width:100%;
+}
+
+
  }
  @media only screen and (max-width: 1250px){
  .logo{
@@ -506,6 +422,12 @@ h1{
     padding-right: 5px;
     font-size: 14px;
   }
+  .flexContainer{
+    display: flex;
+    width: 50%;
+  }
+  .skill{
+    width:50%;
+  }
  }
-   
  
