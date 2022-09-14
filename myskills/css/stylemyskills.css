@@ -163,7 +163,7 @@ p{
   }
   .flexContainer{
     display: flex;
-    width: 50%;
+    width: 100%;
   }
   .skill{
     width:50%;
