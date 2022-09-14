@@ -73,7 +73,8 @@ font-size: 18px;
     color: #ffe5a2;
   }
   .heroimg{
-    padding: 5%;
+    padding-top: 80px;
+    padding-bottom: 0px;;
     background-image: url("../images/Rectangle\ 39.png");
   height:100%;
   background-position: center;
@@ -82,14 +83,15 @@ font-size: 18px;
 .headshot{
   float: right;
   margin-left:auto;
-  margin-top: 0px;
-  margin-right: 30px;
+  margin-top: -70px;
+  margin-right: 100px;
 }
 .herotext{
   position:relative;
   margin-bottom: 80px;
+  margin-left: 80px;
   color:#0c4665;
-  margin-top:3cm;
+  margin-top:60px;
   width: 65%
 }
 .project{
