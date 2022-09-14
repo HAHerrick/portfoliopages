@@ -139,12 +139,10 @@ h1{
 .flexContainer{
 display: flex;
 flex-direction: row;
-}
-
-  
+}  
 
 .skill{
-  background-image:url("../images/Rectangle\ 24.png");
+  background-image:url("../myskills/images/Rectangle\ 24.png");
   height:100%;
 background-position: center;
 background-repeat: no-repeat;
@@ -377,8 +375,7 @@ h1{
 
   }
   .projecttext{
-      width: 100%;
-      
+      width: 100%;   
   }
   button{
      
