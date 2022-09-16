@@ -313,11 +313,10 @@ h1{
       padding-right: 15px;
   }
   .hor{
-  padding: 30px 10px;
-  font-size: 16px;
+  display:none;
 }
   .vertical{
-    padding-right: 3%;
+    float:left;
     font-size: 14px;
   }
   .heroimg{
@@ -385,9 +384,15 @@ h1{
       float: center;
       margin-left: 150px;
     }
+    .content{
+      background-image: url("../images/Rectangle\ 16.png");
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+    }
     .aboutGrid{
       margin:20px;
-      height: 100%;
+      height: 300px;
       display: grid;
       
        grid-template-columns: 1fr;
@@ -400,7 +405,7 @@ h1{
   "ctrfoster"; 
   }  
   .flexContainer{
-    display: flex;
+    display: block;
     flex-direction: column;
     width: 100%;
 }
