@@ -317,11 +317,11 @@ h1{
   font-size: 16px;
 }
   .vertical{
-    padding-right: 2%;
+    padding-right: 3%;
     font-size: 14px;
   }
   .heroimg{
-    padding-top:65px;
+    padding-top:0px;
     padding: 2%;
     background-image: url("../images/Rectangle\ 16.png");
   height:100%;
@@ -332,16 +332,16 @@ h1{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 62%;
-  margin-top: 110px;
-  margin-right: 10px;
+  
+  margin-top: 0px;
+  margin-right:0px;
 }
 .herotext{
   position:relative;
   margin-bottom: 80px;
   color:#0c4665;
   margin-top:3cm;
-  width: 100%
+  width: 62%
 }
   .project{
       padding: 130px;
@@ -355,7 +355,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-     margin-top: 0px;
+     margin-top: 20px;
 
   }
   .projecttext{
@@ -387,12 +387,13 @@ h1{
     }
     .aboutGrid{
       margin:20px;
+      height: 100%;
       display: grid;
-      grid-template-rows: 300px 300px 300px 300px 300px 300px;
-       grid-template-columns: 1fr ;
+      grid-template-rows: 100% 100% 100% 100% 100% 100%;
+       grid-template-columns: 1fr;
       grid-template-areas: 
        "usda"
-       "sniffrstory" "
+       "sniffrstory" 
        "sniffrRoo"
   "userflow" 
   "myplate" 
@@ -421,12 +422,6 @@ h1{
     padding-right: 5px;
     font-size: 14px;
   }
-  .flexContainer{
-    display: flex;
-    width: 50%;
-  }
-  .skill{
-    width:50%;
-  }
+
  }
  
