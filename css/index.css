@@ -293,7 +293,7 @@ h1{
   width: 65%;
 }
   button{
-      background-color: #0c4665;
+      background-color: #17ADDD;
       border: none;
       color:#ffe5a2;
       padding: 15px 28px;
@@ -389,7 +389,7 @@ h1{
   height:100%;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 20px;
+  padding: 0;
     }
     .about{
       font-size: 14px;
