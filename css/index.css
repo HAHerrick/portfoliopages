@@ -309,21 +309,21 @@ h1{
 
 @media only screen and (max-width: 600px){
   .logo{
-      padding-left: 15px;
+      padding-left: 10px;
       padding-right: 0px;
-      width: 75%;
   }
   .hor{
     display: inline;
     float: left;
     color: #0c4665;
     text-align:center;
-    padding: 5px 0px;
+    padding: 5px 5px;
     text-decoration: none;
     font-size: 14px;
 }
   .vertical{
-    float:left;
+    float:right;
+    margin-right: 5px;
     font-size: 10px;
   }
   .heroimg{
