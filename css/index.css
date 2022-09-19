@@ -67,7 +67,7 @@ font-size: 18px;
     color: #0c4665
   }
   a:hover {
-    color:#77efef;
+    color:#ffe5a2;
   }
   a:active {
     color: #ffe5a2;
@@ -310,14 +310,21 @@ h1{
 @media only screen and (max-width: 600px){
   .logo{
       padding-left: 15px;
-      padding-right: 15px;
+      padding-right: 0px;
+      width: 75%;
   }
   .hor{
-  display:none;
+    display: inline;
+    float: left;
+    color: #0c4665;
+    text-align:center;
+    padding: 5px 0px;
+    text-decoration: none;
+    font-size: 14px;
 }
   .vertical{
     float:left;
-    font-size: 14px;
+    font-size: 10px;
   }
   .heroimg{
     padding-top:0px;
@@ -330,72 +337,68 @@ h1{
 .headshot{
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 30px;
+  width: 80%;
+  margin-top: 50px;
   
-  margin-top: 0px;
-  margin-right:0px;
 }
 .herotext{
   position:relative;
   margin-bottom: 80px;
   color:#0c4665;
   margin-top:3cm;
-  width: 62%
+  width: 65%
 }
-  .project{
-      padding: 130px;
-      background-image: url("../images/Rectangle\ 16.png"); 
-      height:100%;
-      background-position: center;
-      background-repeat: no-repeat;
+ 
+  
+  .projecttext{
+    width: 100%;
   }
-  .image{
+  .img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-     margin-top: 20px;
+    width: 100%;
+     margin-top: 0px;
 
   }
-  .projecttext{
-    position:relative;
-    width: 100%;
-      
-  }
+
+  
   .project{
       padding: 90px;
-      background-image: url("../images/Rectangle\ 16.png"); 
+      background-image: url("../images/Rectangle16original.png"); 
       height:100%;
       background-position: center;
       background-repeat: no-repeat;
+      width: 70%;
+      margin-left: -30px;
   }
-  .image{
-      float:left;
-      margin-top: 0px;
 
-  }
-  .projecttext{
-      width: 100%;   
-  }
+
+  
+  
   button{
      
       padding: 15px 18px;
       font-size: 14px;
       float: center;
-      margin-left: 150px;
+      margin-left: 0px;
     }
     .content{
-      background-image: url("../images/Rectangle\ 16.png");
+      background-image: url("../images/Rectangle16original.png");
   height:100%;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 20px;
+    }
+    .about{
+      font-size: 14px;
     }
     .aboutGrid{
       margin:20px;
-      height: 300px;
+      height: 900px;
       display: grid;
-      
-       grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
       grid-template-areas: 
        "usda"
        "sniffrstory" 
@@ -413,5 +416,9 @@ h1{
   width:100%;
 }
 
-
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
  }
